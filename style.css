@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    
+    background: url(../img/casaFuturista.png.PNG) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+form{
+    font-size: 16px;
+    background: rgb(110, 110, 103);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    
+}
+
+h1{
+    color: rgb(2, 2, 2);
+    text-align: center;
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px;
+    text-align: center;
+}
+.enviar input{
+    background: rgb(71, 81, 128);
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: rgb(15, 1, 1);
+    cursor: pointer;
+    font-size: 20px;
+    }
+.enviar input:hover{
+    background: turquoise;
+}
+textarea{
+    width: 470px;
+    height: 120px;
+    line-height: 20px;
+}
+.redes{
+    cursor: pointer;
+    font-size: 20px;
+    background: rgb(9, 231, 231);
+    transition: 0.5s;  
+}
+a:hover{
+    background: rgb(64, 152, 224);
+}
+
